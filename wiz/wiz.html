@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <style>
+        /* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    border: 0px solid black;
+    width: 100%;
+    height: 800px;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.background .n{
+    border: 0px solid red;
+    height: 50px;
+    width: 100%;
+    font-size: 26px;
+    padding-top: 20px;
+}
+.background .headerr{
+    border: 0px solid black;
+    height: 100px;
+    width: auto;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding-top: 300px;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+/* Carousel styles */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.slide {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    padding-right: 25px;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section heading styles */
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Paragraph styles */
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="n">
+            <nav>
+                <ul>
+                    <li><a href="#carousel">Carousel</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="headerr">WELCOME TO MY PAGE!<br>
+            <h6>“What is the good of your stars and trees, your sunrise and the wind, if they do not enter into our daily lives?”</h6>
+        </div>
+    </div>
+    
+    <section id="carousel">
+        <h2>Carousel</h2>
+        <div class="carousel">
+            <div class="slide">
+                <img src="https://picsum.photos/id/1015/400/300" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1016/400/300" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1018/400/300" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1015/400/300" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1016/400/300" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1018/400/300" alt="Image 3">
+            </div>
+        </div>
+    </section>
+    <section id="history">
+        <h2>History</h2>
+        <p><b><i><h2>See for the first time that tree, bush or blade of grass.</h2></i></b><br>Nature is part of our life. We grew out of the seed, the earth, and we are part of all that, but we are rapidly losing the sense that we are animals like the others. Can you have a feeling for a tree, look at it, see the beauty of it, listen to the sound it makes? Can you be sensitive to the little plant, a little weed, to that creeper growing up the wall, to the light on the leaves and the many shadows? One must be aware of all this and have that sense of communion with nature around you. You may live in a town, but you do have trees here and there. A flower in the next garden may be ill-kept, crowded with weeds, but look at it, feel that you are part of all that, part of all living things. If you hurt nature, you are hurting yourself.
+
+            One knows all this has been said before in different ways, but we don’t seem to pay much attention. Is it that we are so caught up in our own network of problems, our desires, our urges of pleasure and pain that we never look around, never watch the moon? Watch it. Watch with all your eyes and ears, your sense of smell. Watch. Look as though you are looking for the first time. If you can do that, you see for the first time that tree, bush or blade of grass. Then you can see your teacher, your mother or father, your brother or sister, for the first time. There is an extraordinary feeling about that: the wonder, the strangeness, the miracle of a fresh morning that has never been before and never will be.
+            
+            Be in communion with nature, not verbally caught in the description of it, but be a part of it, be aware, feel that you belong to all that, be able to have love for all that, to admire a deer, the lizard on the wall, that broken branch lying on the ground. Look at the evening star or the new moon without the word, without merely saying how beautiful it is and turning your back on it, attracted by something else, but watch that single star and new delicate moon as though for the first time. If there is such communion between you and nature, you can commune with man, with the boy sitting next to you, with your educator or with your parents. We have lost all sense of relationship in which there is not only a verbal statement of affection and concern but also this sense of communion, which is not verbal. It is a sense that we are all together, that we are all human beings, not divided, not broken up, not belonging to any group or race or some idealistic concepts, but that we are all human beings, living on this extraordinary, beautiful earth.</p>
+    </section>
+    <section id="team">
+        <h2>Team</h2>
+        <h2><b><i>To live in harmony with nature brings about a different world.</i></b></h2><br>
+        <p>Have you ever woken up in the morning and looked out of the window, or gone out on the terrace and looked at the trees and the spring dawn? Live with it. Listen to all the sounds, to the whisper, the slight breeze among the leaves. See the light on that leaf and watch the sun coming over the hill, over the meadow. And the dry river, or that animal grazing and those sheep across the hill, watch them. Look at them with a sense of affection and care, that you do not want to hurt a thing. When you have such communion with nature, your relationship with another becomes simple, clear, without conflict.
+
+            This is one of the responsibilities of the educator, not merely to teach mathematics or how to run a computer. Far more important is to have communion with other human beings who suffer, struggle, and have great pain and the sorrow of poverty, and with those people who go by in an expensive car. If the educator is concerned with this, he is helping the student to become sensitive, sensitive to other people’s sorrows, struggles, anxieties and worries, and the rows that one has in the family. It should be the responsibility of the teacher to educate others to have such communion with the world. The world may be too large, but the world is where he is; that is his world. And this brings about a natural consideration, affection for others, courtesy and behaviour that is not rough, cruel or vulgar.</p>
+    </section>
+    
+</body>
+</html>
